@@ -14,6 +14,9 @@
 4- Verification: Verify the changes by inspecting the last 5 lines of /etc/group.
 `tail -n 5 /etc/group`
 
+![Phase 1 Output](../assets/lab04/phase1.png)
+------------------------------------------------------------------------------------
+
 # Phase 2: User Provisioning & Customization
 
 1- Create user sysadmin1 with a User ID of 2001 and set the login shell to /bin/sh.
@@ -28,6 +31,9 @@
 
 4- Verification: Verify the user attributes (UID, GID, and Shell) by inspecting /etc/passwd.
 `tail -n 5 /etc/passwd`
+
+![Phase 2 Output](../assets/lab04/phase2.png)
+-------------------------------------------------------------------------------------
 
 # Phase 3: Account Modification & Membership
 
@@ -45,6 +51,9 @@ effect on existing secondary memberships)
 4- Remove sysadmin2 from the devops_interns group without deleting
 the user or the group.
 `sudo gpasswd -d sysadmin2 devops_interns`
+
+![Phase 3 Output](../assets/lab04/phase3.png)
+------------------------------------------------------------------------------------
 
 # Phase 4: Verification & Cleanup
 
@@ -64,19 +73,5 @@ members of sysadmins.
 4-  Final Verification: Verify that sysadmin3 no longer exists in /etc/passwd.
 `grep "sysadmin3" /etc/passwd`
 
-
-
-### Phase 1: Group Infrastructure
-![Phase 1 Output](../assets/lab04/phase1.png)
-
-### Phase 2: User Provisioning & Customization
-![Phase 2 Output](../assets/lab04/phase2.png)
-
-### Phase 3: Account Modification & Membership
-![Phase 3 Output](../assets/lab04/phase3.png)
-
-### Phase 4: Verification & Cleanup
 ![Phase 4 Output](../assets/lab04/phase4.png)
-
-
-
+-------------------------------------------------------------------------------------
