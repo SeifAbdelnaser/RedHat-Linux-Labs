@@ -67,17 +67,16 @@ members of sysadmins.
 
 
 ### Phase 1: Group Infrastructure
-![Phase 1 Output](../assets/lab04/<Phase 1: Group Infrastructure.png>)
+![Phase 1 Output](../assets/lab04/phase1.png)
 
 ### Phase 2: User Provisioning & Customization
-![Phase 2 Output](../assets/lab04/<Phase 2: User Provisioning & Customization.png>)
+![Phase 2 Output](../assets/lab04/phase2.png)
 
 ### Phase 3: Account Modification & Membership
-![Phase 3 Output](../assets/lab04/<Phase 3: Account Modification & Membership.png>)
+![Phase 3 Output](../assets/lab04/phase3.png)
 
 ### Phase 4: Verification & Cleanup
-![Phase 4 Output](../assets/lab04/<Phase 4: Verification & Cleanup.png>)
-
+![Phase 4 Output](../assets/lab04/phase4.png)
 
 
 
