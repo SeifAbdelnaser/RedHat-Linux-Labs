@@ -22,7 +22,7 @@
 
 6- Create User: Create a new user named labuser with a home directory `sudo useradd -m labuser`
 
-7- Generate SSH Key: Generate an SSH key pair for your current user without a passphrase `ssh-keygen -t rsa -N ""`
+7- Generate SSH Key: Generate an SSH key pair for your current user without a passphrase `ssh-keygen -N ""`
 
 ![Part 2 Output](../assets/lab07/part2.png)
 
